@@ -23,13 +23,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
         
-        let itemImage = NSImage(named: "Icon")
+        let itemImage = NSImage(named: "Angle")
         itemImage?.isTemplate = true
         statusItem?.button?.image = itemImage
         statusItem?.menu = Menu
         // 使用这个函数来获取USB设备列表
         let usbDeviceNames = getConnectedUSBDevices()
-        statusItem?.button?.title = usbDeviceNames[0]
+        statusItem?.button?.title =  " " + usbDeviceNames[0]
     }
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
