@@ -40,6 +40,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    @IBAction func Config(_ sender: Any) {
+        NSWorkspace.shared.open(URL(string: "https://usevia.app")!)
+    }
+    
     @IBAction func Update(_ sender: Any) {
         print("Todo Update")
     }

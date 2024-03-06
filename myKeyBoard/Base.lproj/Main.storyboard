@@ -70,6 +70,12 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <menu id="1Xt-dd-ZA1">
                     <items>
+                        <menuItem title="Config" keyEquivalent="c" id="672-W5-oGi">
+                            <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            <connections>
+                                <action selector="Config:" target="Voe-Tx-rLC" id="w7s-yj-1Of"/>
+                            </connections>
+                        </menuItem>
                         <menuItem title="Update" keyEquivalent="u" id="izH-zx-rBH">
                             <connections>
                                 <action selector="Update:" target="Voe-Tx-rLC" id="UYD-4G-JNl"/>
